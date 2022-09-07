@@ -3,6 +3,7 @@ use std::io::{Read, Write};
 
 use crate::{Decode, Encode};
 
+/// JSON codec.
 #[derive(Debug, Clone, Copy, Default)]
 pub struct Codec {}
 

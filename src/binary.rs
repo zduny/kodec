@@ -3,6 +3,7 @@ use std::io::{Read, Write};
 
 use crate::{Decode, Encode};
 
+/// Binary (bincode) codec.
 #[derive(Debug, Clone, Copy, Default)]
 pub struct Codec {}
 

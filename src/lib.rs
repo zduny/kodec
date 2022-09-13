@@ -33,3 +33,8 @@ pub trait Decode {
         R: Read,
         for<'de> T: Deserialize<'de>;
 }
+
+/// Helper trait signaling that both encoding and decoding is implemented.
+pub trait Codec: Encode + Decode {}
+
+impl<T> Codec for T where T: Encode + Decode {}

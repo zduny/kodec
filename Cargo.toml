@@ -1,7 +1,13 @@
 [package]
 name = "kodec"
 version = "0.1.0"
+authors = ["zduny <dzduniak@gmail.com>"]
 edition = "2021"
+description = "Simple crate defining common interface for encoders and decoders."
+license = "Apache-2.0"
+repository = "https://github.com/zduny/kodec"
+documentation = "https://docs.rs/kodec/"
+keywords = ["codec", "encoding", "decoding", "json", "binary"]
 
 [features]
 default = []

@@ -5,6 +5,10 @@ Also provides JSON and binary (bincode) codec implementations that can be enable
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O5O31JYZ4)
 
+## example
+
+See [rust-webapp-template](https://github.com/zduny/rust-webapp-template)
+
 ## see also
 [Serde](https://serde.rs/)
 
